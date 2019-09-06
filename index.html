@@ -1,72 +1,113 @@
 <!DOCTYPE html>
+<!--
+**********  Web Design
+**********  2019FA.WEB.210.4101
+**********  Nicolas D'Agata
+**********  Lesson 03 - Assignment 01
+**********  Kevin Morgan
+**********  09/05/2019
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Resume</title>
+    <title>Captain Kevin Morgan | Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Kite+One|Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- // Intro -->
     <header>
-        <img src="your-picture.jpg" alt="Your Name">
-        <h1>Your Name</h1>
-        <h2>Job title or tagline</h2>
-        <p>Add your profile summary here. You can have several paragraphs or add links.</p>
+        <div class="content-wrap">
+            <img class="profile-img column-narrow" src="images/space-blue-250.jpg" alt="Captain Kevin Morgan">
+            
+            <!--<div class="column-wide">-->
+              <h1>Captain Kevin Morgan</h1>
+              <h2>USS Galaxy Explorer, Galactic Alliance</h2>
+              <p>As the Captain of the Alliance's most technologically advanced starship, I thrive on exploring new planets and meeting new life forms.</p>
+            </div>
+        </div>
     </header>
     
     <main> 
         <!-- // Work Experience -->
-        <section>
-            <h2>Work Experience</h2>
+        <section class="work">
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
 
-            <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Job summary.</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Optional list:</p>
-            <ul>
-                <li>Created...</li>
-                <li>Lead...</li>
-                <li>Responsible for</li>
-            </ul>
-            <!-- end of Job Details block. -->
-            
+                <!-- Job Details: copy this block to add more positions. -->
+                <div class="column-narrow">
+                    <h3>Starship Captain</h3>
+                    <p>USS Galaxy Explorer</p>
+                    <p>Stardate 2216 - Present</p>
+                </div>
+                <div class="column-wide">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam maiores beatae optio, tempore vel, mollitia non quas fugiat sapiente dolorem aut ut quidem iusto, vitae molestias voluptatum sit officiis repudiandae incidunt? Reprehenderit ex, esse officiis magnam ab dicta ipsam optio!</p>
+                </div>
+                
+                <!-- Job Details -->
+                <div class="column-narrow">
+                    <h3>Freighter Commander</h3>
+                    <p>USS Armstrong</p>
+                    <p>Stardate 2214 - Stardate 2216</p>
+                </div>
+                
+                <div class="column-wide">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam maiores beatae optio, tempore vel, mollitia non quas fugiat sapiente dolorem aut ut quidem iusto, vitae molestias voluptatum sit officiis repudiandae incidunt? Reprehenderit ex, esse officiis magnam ab dicta ipsam optio!</p>
+                </div>
+                
+                <!-- Job Details -->
+                <div class="column-narrow">
+                    <h3>Lead Engineer</h3>
+                    <p>Mars Maintenence Facility</p>
+                    <p>Stardate 2213 - Stardate 2214</p>
+                </div>
+                <div class="column-wide">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam maiores beatae optio, tempore vel, mollitia non quas fugiat sapiente dolorem aut ut quidem iusto, vitae molestias voluptatum sit officiis repudiandae incidunt? Reprehenderit ex, esse officiis magnam ab dicta ipsam optio!</p>
+                    <p>Key contributions:</p>
+                    <ul>
+                        <li>Maintained ion drives in small-to-medium class starships.</li>
+                        <li>Retrofitted aging propulsion drives with ion drives.</li>
+                        <li>Lead a maintenence crew of 10 to become the most skilled and efficient on Mars.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
 
         <!-- // Education -->
-        <section>
-            <h2>Education</h2>
+        <section class="education">
+            <div class="content-wrap">
+                <h2>Education</h2>
 
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>School name, year you attended</h3>
-            <p>Designation received</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Summary.</p>
-            <!-- End of school details. -->
+                <!-- School details: copy this block to add more schools. -->
+                <h3>Galactic Officers Academy</h3>
+                <h4>Commander, 2206</h4>
+                <p>Received highest ranking to graduates.</p>
+                
+                <h3>Hermes Flight School</h3>
+                <h4>"Top Gun" Pilot, 2201-2205</h4>
+                <p>Able to pilot land skiffs to starships.</p>
+                
+                <h3>Mech/Tech College</h3>
+                <h4>Master Drive Engineer, 2200</h4>
+                <p>From rocket propulsion to ion drives.</p>
+            </div>
         </section>
     </main>
     
     <!-- // Footer & contact info -->
     <footer>
-        <h2>Let's Keep in Touch!</h2>
-        
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
-            <a href="mailto:email@example.com">email@example.com</a>
-            <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
-            <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">LinkedIn</a>
-            <a href="#" target="_blank">Facebook</a>
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+            
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <div class="contact-info">
+                <a href="mailto:CaptKev@galacticalliance.com">CaptKev@galacticalliance</a>
+                <a href="http://CaptKev.com">CaptKev.com</a>
+            </div>
+            <p>Copyright 2219 by Captian Kevin Morgan</p>
         </div>
-
-        <p>Copyright 2017 by Your Name</p>
     </footer>
 </body>
 </html>
